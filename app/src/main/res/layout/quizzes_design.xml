@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+android:background="@drawable/courses_tab">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Course"
+            android:padding="8dp"
+            android:textSize="18sp" android:id="@+id/quizzesCourseTitle"/>
+
+    <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+            android:id="@+id/quizzespb"
+            android:progress="60"
+            android:progressDrawable="@drawable/progress_bar_color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="continue"
+                android:layout_margin="8dp"
+                android:background="@drawable/green_btn"
+                android:textColor="#ffffff"/>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="Take A Quiz"
+                android:layout_margin="8dp"
+                android:background="@drawable/blue_btn"
+                android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

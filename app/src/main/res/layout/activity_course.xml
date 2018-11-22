@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MyCourses"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AMMAR"
+            android:padding="20dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#111111"/>
+    <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/videoView"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/courses_tab"
+            android:text="Hello this is the GitHub course"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="#111111"/>
+
+</LinearLayout>

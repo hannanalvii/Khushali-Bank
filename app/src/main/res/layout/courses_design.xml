@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" android:gravity="top|center">
+
+    <TextView
+            android:text="The Course"
+            android:layout_width="342dp"
+            android:layout_height="37dp"
+            android:id="@+id/titleTextVu"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginTop="16dp" android:textSize="24sp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/courseImg"
+            android:background="@drawable/logo"
+            android:layout_marginTop="16dp"/>
+    <TextView
+            android:text="This is the course"
+            android:layout_width="338dp"
+            android:layout_height="29dp"
+            android:id="@+id/courseDetailTxtvu"
+            android:layout_marginTop="16dp" android:textSize="18sp"/>
+    <Button
+            android:text="Read more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReadMoreBtn"
+            android:background="@drawable/read_more_btn"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" android:onClick="coursesDesignBtn"/>
+</LinearLayout>
