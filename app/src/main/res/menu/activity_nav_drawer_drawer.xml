@@ -6,31 +6,31 @@
     <group android:checkableBehavior="single">
         <item
                 android:id="@+id/Dashboard"
-                android:icon="@drawable/ic_menu_camera"
+                android:icon="@drawable/nav_dashboard_icon"
                 android:title="Dashboard"/>
         <item
                 android:id="@+id/My_Courses"
-                android:icon="@drawable/ic_menu_gallery"
+                android:icon="@drawable/nav_course_icon"
                 android:title="My Courses"/>
         <item
                 android:id="@+id/Take_a_Quiz"
-                android:icon="@drawable/ic_menu_slideshow"
+                android:icon="@drawable/nav_take_a_quiz_icon"
                 android:title="Take a Quiz"/>
         <item
                 android:id="@+id/Quiz_Result"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/nav_quiz_result_icon"
                 android:title="Quiz Result"/>
         <item
                 android:id="@+id/Surveys"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/nav_surveys_icon"
                 android:title="Surveys"/>
         <item
                 android:id="@+id/Reminders"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/nav_reminders_icon"
                 android:title="Reminders"/>
         <item
                 android:id="@+id/Logout"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/nav_logout_icon"
                 android:title="Logout"/>
     </group>
 
